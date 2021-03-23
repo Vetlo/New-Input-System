@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -5,20 +6,39 @@ public class PlayerMovement : MonoBehaviour
 [SerializeField]
 private float _moveSpeed;
 
+private PlayerInput _playerInput;
 
+private void Awake()
+{
+    _playerInput = new PlayerInput();
+    _playerInput.Player.Shoot.performed += context => Shoot();
+}
 
-    // Update is called once per frame
+private void OnEnable()
+{
+    _playerInput.Enable();
+    
+}
+
+private void OnDisable()
+{
+    _playerInput.Disable();
+}
+
+// Update is called once per frame
     void Update()
     {
-        float horizontalDirection = Input.GetAxis("Horizontal");
-        float verticalDirection = Input.GetAxis("Vertical");
-        
-        Vector2 direction = new Vector2(horizontalDirection, verticalDirection);
-        Move(direction);
-        if (Input.GetMouseButtonDown(0))
-        {
-         Shoot();   
-        }
+        Vector2 moveDirection = _playerInput.Player.Move.ReadValue<Vector2>();
+        Move(moveDirection);
+        /* float horizontalDirection = Input.GetAxis("Horizontal");
+         float verticalDirection = Input.GetAxis("Vertical");
+         
+         Vector2 direction = new Vector2(horizontalDirection, verticalDirection);
+         Move(direction);
+         if (Input.GetMouseButtonDown(0))
+         {
+          Shoot();   
+         }*/
 
     }
 
@@ -31,6 +51,6 @@ private float _moveSpeed;
 
     private void Shoot()
     {
-        Debug.Log("");
+        Debug.Log("Piu,Piu !!!");
     }
 }
