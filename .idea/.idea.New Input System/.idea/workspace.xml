@@ -28,16 +28,14 @@
   <component name="ChangeListManager">
     <list default="true" id="365ba5e8-6865-4fc0-baeb-b820a62249e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Input System/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Input System/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Input System/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Input System/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Input System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Input System/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions/Player.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions/Player.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions/PlayerInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions/PlayerInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions/PlayerInput.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions/PlayerInput.inputactions.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/vScenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Vetlo_/vScenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/vScripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Vetlo_/vScripts/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +45,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Vetlo_/vScripts/NewPlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_Vetlo_/vScripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Vetlo_/vScripts/NewPlayerMovement.cs" />
       </list>
     </option>
   </component>
@@ -95,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616508297610</updated>
-      <workItem from="1616508379190" duration="5876000" />
+      <workItem from="1616508379190" duration="7721000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил скрипт управления">
       <created>1616509305899</created>
