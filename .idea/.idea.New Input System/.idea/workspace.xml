@@ -26,17 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="365ba5e8-6865-4fc0-baeb-b820a62249e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Input System/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Input System/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Input System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Input System/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions/PlayerInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions/PlayerInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions/PlayerInput.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/InputActions/PlayerInput.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Vetlo_/vScenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Vetlo_/vScenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-    </list>
+    <list default="true" id="365ba5e8-6865-4fc0-baeb-b820a62249e8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,12 +47,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1qA2e1PhYFzLS5xJoQaeKpBECIx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -97,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616508297610</updated>
-      <workItem from="1616508379190" duration="7721000" />
+      <workItem from="1616508379190" duration="8371000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил скрипт управления">
       <created>1616509305899</created>
@@ -106,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616509305899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил скрипт управления">
+      <created>1616520424635</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616520424635</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,8 +138,19 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Добавил скрипт управления" />
     <option name="LAST_COMMIT_MESSAGE" value="Добавил скрипт управления" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="188" key="#Notifications" timestamp="1616520711350">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="431" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1616520711350" />
+    <state x="299" y="27" key="Vcs.Push.Dialog.v2" timestamp="1616520687817">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="299" y="27" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616520687817" />
   </component>
 </project>

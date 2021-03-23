@@ -13,7 +13,7 @@ public class NewPlayerMovement : MonoBehaviour
 
     public void OnShoot(InputAction.CallbackContext context)
     {
-        Debug.Log("Piu,Piu !!!");
+        Debug.Log("Piu,Piu !!!!");
     }
 
     void Move(Vector2 direction)
@@ -27,5 +27,6 @@ public class NewPlayerMovement : MonoBehaviour
    public void Update()
     {
         Move(_movDirection);
+        
     }
 }
